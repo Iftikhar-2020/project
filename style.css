@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+=====================
+        HEADER
+=====================
+*/
+
+body{
+    font-family: 'Aclonica', sans-serif;
+}
+.title{
+    font-size: 5em;
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 5px 5px 5px rgb(102, 102, 102);
+}
+.head{
+    padding-top: 25px;
+    background: linear-gradient(to bottom, blue, skyblue, lightyellow);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darkblue;
+    flex-direction: column;
+}
+
+/*
+=====================
+        MENU
+=====================
+*/
+
+.menu{
+    width: 100%;
+    background-color: black;
+    height: 40px;
+}
+.menu ul{
+    text-align: center;
+}
+.menu li{
+    list-style: none;
+    display: inline;
+}
+.menu li a{
+    text-decoration: none;
+    display: inline-block;
+    line-height: 40px;
+    padding: 0px 25px 0px 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/*
+=====================
+        SERVICES
+=====================
+*/
+
+.service{
+    width: 100%;
+    background-color: lightgray;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+p{
+    font-size: 18px;
+}
+.col-wraper{
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;
+}
+.service-col{
+    width: 33.33%;
+    float: left;
+    padding: 10px 30px 10px 30px;
+}
+.service-col img{
+    width: 100px;
+    max-width: 100px;
+}
+.service-content{
+    font-family: initial;
+}
+.col-wraper::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*
+=====================
+        ABOUT US
+=====================
+*/
+
+.about{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-image: url(images/teamphoto.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: brown;
+    text-shadow: rgba(0, 0, 0, 0.1);
+}
+.aboutus{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: auto;
+    width: 80%;
+    font-size: 2em;
+    color: orange;
+    font-family: serif;
+}
+.aboutbtn{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px 15px 10px 15px;
+    margin-top: 30px;
+    border: none;
+    outline: 2px solid yellow;
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+}
+.aboutbtn:hover{
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+/*
+=====================
+        OUR TEAM
+=====================
+*/
+
+.team{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: hsl(0, 0%, 95%);
+    width: 100%;
+    text-align: center;
+    color: darkred;
+    font-size: 25px;
+}
+h3{
+    font-size: 20px;
+    color: blue;
+}
+.team-wrapper{
+    width: 90%;
+    padding-top: 50px;
+    margin: auto;
+}
+.colteam{
+    width: 33.33%;
+    float: left;
+    padding: 10px 30px 10px 30px;
+}
+.colteam img{
+    width: 80px;
+    max-width: 100%;
+    padding-bottom: 5px;
+}
+.teamdata p{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: darkslategray;
+}
+.teamdata{
+    box-shadow: 2px 3px 2px 2px gray;
+}
+.team-wrapper::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*
+=====================
+    CONTACT INFO
+=====================
+*/
+
+.contact{
+    width: 100%;
+    background-color: green;
+}
+.cta{
+    width: 100%;
+    padding: 30px 10px 30px 10px;
+    text-align: center;
+    color: white;
+}
+.cta-col{
+    width: 33.33%;
+    float: left;
+}
+.cta-col h3{
+    display: inline;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cta::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*
+=====================
+CONTACT INFO DETAILS
+=====================
+*/
+
+.maininfo{
+    width: 100%;
+    padding: 30px 5px 30px 5px;
+    text-align: center;
+    background-color: rgb(235, 231, 231);
+    color: rgb(255, 106, 7);
+}
+.contact-col1{
+    width: 35%;
+    float: left;
+    text-align: center;
+    padding: 30px 5px 30px 5px;
+}
+.maininfo::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.contact-col2{
+    width: 65%;
+    padding: 30px 5px 30px 5px;
+    float: left;
+    text-align: left;
+}
+.socialicon{
+    padding: 20px;
+    margin-top: 30px;
+}
+.fb-icon{
+    background-color: royalblue;
+    color: white;
+    padding-bottom: 5px;
+}
+.yt-icon{
+    background-color: red;
+    color: white;
+    padding-bottom: 5px;
+}
+.tw-icon{
+    background-color: rgb(9, 200, 248);
+    color: white;
+    padding-bottom: 5px;
+}
+.gp-icon{
+    background-color: rgb(187, 9, 9);
+    color: white;
+    padding-bottom: 5px;
+}
+
+/*
+=====================
+    CONTACT FORM
+=====================
+*/
+
+.form{
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+.msg{
+    width: 90%;
+    height: 200px;
+    border: none;
+    outline: none;
+}
+.form-name, .form-email{
+    width: 250px;
+    height: 25px;
+    padding: 0px 5px 0px 5px;
+    border: none;
+    outline: none;
+}
+.form-btn{
+    font-size: 18px;
+    margin-top: 10px;
+    background-color: lightgray;
+    padding: 10px 30px 10px 30px;
+}
+.form-btn:hover{
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+/*
+=====================
+      FOOTER
+=====================
+*/
+
+.footer{
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    font-family: serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*
+=====================
+  CSS MEDIA QUERIES
+=====================
+*/
+
+@media screen and (max-width:500px){
+    .service-col{
+        width: 100%;
+        padding-top: 100px;
+    }
+    .colteam{
+        width: 100%;
+        padding-top: 100px;
+    }
+    .cta-col{
+        width: 100%;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .contact-col1{
+        width: 100%;
+    }
+    .contact-col2{
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+
+    }
+}
